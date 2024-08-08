@@ -1,0 +1,67 @@
+Admin
+user      : Admin1
+password  : Admin1
+
+User
+user      : User1
+password  : User1
+
+Approver
+user      : Approver1
+password  : Approver1
+
+PHP Version      = PHP 8.1.10
+Database Version = 8.0.30 - MySQL Community Server - GPL
+Framework        = PHP Native (Back-End) & Mazer - Bootstrap (Front-End)
+Note  = Saya menggunakan web server laragon untuk develop
+
+
+#Panduan Penggunaan Aplikasi
+Instalasi
+-Unduh dan Ekstrak Aplikasi
+
+Penggunaan
+1.Akses Halaman Login
+Buka browser dan akses http://localhost/vehicle-management/public/Auth/signin.
+Note: Pilih salah satu role di atas atau buat signup di http://localhost/vehicle-management/public/Auth/signup
+
+2. Admin
+
+2.1 Melihat Seluruh Kendaraan
+- Pilih tombol navigasi vehicle
+- Seluruh data Kendaraan ditampilkan
+
+2.2 Input Kendaraan
+- Pilih tombol navigasi vehicle
+- Pilih tombol tambah
+- Isi form yang ada
+- Klik tombol submit
+
+2.3 Melihat List Pemesanan dari User 
+- Pilih tombol navigasi request approved
+- Seluruh data Pemesanan dari User di tampilkan
+
+3. User
+
+3.1 Melihat Seluruh Kendaraan
+- Pilih tombol navigasi List Vehicle
+- Seluruh data Kendaraan ditampilkan
+
+3.2 Meminta Pemesanan Kendaraan
+- Pilih tombol navigasi List Vehicle
+- Klik tombol Request
+- Maka akan di masukkan ke Request Vehicle
+- Pilih Tombol Request Vehicle
+- Klik tombol Send Request
+- Tunggu status dari Admin dan Approver
+
+4. Approver
+
+3.1 Melihat Seluruh Permintaan dari User Yang telah disetujui oleh admin
+- Pilih Navigasi List Request
+- Seluruh data Permintaan Ditampilkan
+
+3.2 Menentukan Permintaan
+- Pilih Navigasi List Request
+- Klik Accept atau Rejected
+
